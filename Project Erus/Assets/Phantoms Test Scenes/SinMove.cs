@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Direction { X = 0, Y, Z};
-
 public class SinMove : MonoBehaviour {
 
     // Deklaration 
 
+    public enum Direction { X = 0, Y, Z };
+
     // Einstellungen
-    public float speed = 0.025f;
+    public float speed = 1.0f;
     public float amplitude = 1.0f;
     public Direction direction = Direction.Y;
     
@@ -33,7 +33,7 @@ public class SinMove : MonoBehaviour {
         // Sinus-Bewegung eines Objektes
         Vector3 pos = this.transform.position;
 
-        add += speed;
+        add += speed * Time.deltaTime;
 
         switch (direction)
         {
