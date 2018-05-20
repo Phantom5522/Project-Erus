@@ -9,7 +9,7 @@ public class SinMove : MonoBehaviour {
     public enum Direction { X = 0, Y, Z };
 
     // Einstellungen
-    public float speed = 1.0f;
+    public float speed = 1.0f;                  // one cycle per Second
     public float amplitude = 1.0f;
     public Direction direction = Direction.Y;
     
@@ -35,19 +35,21 @@ public class SinMove : MonoBehaviour {
 
         add += speed * Time.deltaTime;
 
+        Debug.Log(Mathf.Sin(0.5f * Mathf.PI));
+
         switch (direction)
         {
             case Direction.X:
-                pos.x = amplitude * Mathf.Sin(add) + oldPos.x;
+                pos.x = amplitude * Mathf.Sin(add * 2 * Mathf.PI) + oldPos.x;
                 break;
             case Direction.Y:
-                pos.y = amplitude * Mathf.Sin(add) + oldPos.y;
+                pos.y = amplitude * Mathf.Sin(add * 2 * Mathf.PI) + oldPos.y;
                 break;
             case Direction.Z:
-                pos.z = amplitude * Mathf.Sin(add) + oldPos.z;
+                pos.z = amplitude * Mathf.Sin(add * 2 * Mathf.PI) + oldPos.z;
                 break;
             default:
-                pos.y = amplitude * Mathf.Sin(add) + oldPos.y;
+                pos.y = amplitude * Mathf.Sin(add * 2 * Mathf.PI) + oldPos.y;
                 break;
         }
 
