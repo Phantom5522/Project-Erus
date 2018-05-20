@@ -13,11 +13,11 @@ public class CreatePrimitive : MonoBehaviour {
     // Use this for initialization
     void Start () {
 
-        GameObject pObkect = GameObject.CreatePrimitive(pType);
+        GameObject pObject = GameObject.CreatePrimitive(pType);
 
-        pObkect.transform.position = new Vector3(x, y, z);
+        pObject.transform.position = new Vector3(x, y, z);
 
-        pObkect.name = "Generated " + pType.ToString();
+        pObject.name = "Generated " + pType.ToString();
 
 	}
 	
