@@ -35,8 +35,6 @@ public class SinMove : MonoBehaviour {
 
         add += speed * Time.deltaTime;
 
-        Debug.Log(Mathf.Sin(0.5f * Mathf.PI));
-
         switch (direction)
         {
             case Direction.X:

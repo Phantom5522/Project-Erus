@@ -19,7 +19,7 @@ public class AutoRotate : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
-
+        // addition of an angle
         Vector3 rot = new Vector3();
 
         
@@ -40,8 +40,6 @@ public class AutoRotate : MonoBehaviour {
         }
 
         this.transform.Rotate(rot);
-        
-         
 
     } 
 

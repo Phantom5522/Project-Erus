@@ -377,7 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91d4267672c0b494486cf4fd2aae2137, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 45
   axis: 1
 --- !u!65 &1781045435
 BoxCollider:
@@ -457,6 +457,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb456d455611b604991aed3988bc0948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
-  amplitude: 1
+  speed: 0.3
+  amplitude: 0.5
   direction: 1
