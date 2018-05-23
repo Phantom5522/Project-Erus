@@ -1,7 +1,22 @@
 fileFormatVersion: 2
 guid: 6ee18ab47e221cb46b8c46cb536b556c
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: schwanz
+    21300002: koerper
+    21300004: kopf
+    21300006: bein R 1
+    21300008: bein R 2
+    21300010: bein R 3
+    21300012: bein L 1
+    21300014: bein L 2
+    21300016: bein L 3
+    21300018: arm R 3
+    21300020: arm L 3
+    21300022: arm R 2
+    21300024: arm L 2
+    21300026: arm L 1
+    21300028: arm R 1
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -38,14 +53,14 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
+  alignment: 9
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -59,7 +74,18 @@ TextureImporter:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -69,7 +95,307 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: schwanz
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 2902
+        width: 1016
+        height: 960
+      alignment: 9
+      pivot: {x: 0.91182405, y: 0.08750203}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8379a01d32fb054999e5b6c2978aedc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: koerper
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 2977
+        width: 411
+        height: 760
+      alignment: 9
+      pivot: {x: 0.39948413, y: 0.13977355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40c66e5540589c4bb7885c454be8c71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kopf
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 1899
+        width: 717
+        height: 786
+      alignment: 9
+      pivot: {x: 0.51537585, y: 0.1390818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a69e2fc2a0ff7141a00261f1b0c56ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bein R 1
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 2100
+        width: 424
+        height: 637
+      alignment: 9
+      pivot: {x: 0.4984551, y: 0.7597614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab14c194996a4343a5142896fec5893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bein R 2
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 1759
+        width: 365
+        height: 331
+      alignment: 9
+      pivot: {x: 0.6478783, y: 0.85719836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df706fe7bf6335842bf79023c98322c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bein R 3
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 1366
+        width: 319
+        height: 375
+      alignment: 9
+      pivot: {x: 0.24216683, y: 0.8632653}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584d0efa5d7e6294a916fe933922b9fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bein L 1
+      rect:
+        serializedVersion: 2
+        x: 3350
+        y: 2106
+        width: 388
+        height: 583
+      alignment: 9
+      pivot: {x: 0.48024788, y: 0.76584065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5e4b92434790642aa77ab998463eaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bein L 2
+      rect:
+        serializedVersion: 2
+        x: 3350
+        y: 1741
+        width: 357
+        height: 352
+      alignment: 9
+      pivot: {x: 0.69438994, y: 0.8577936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f428aac09f6f88f4e98888eb5370ec5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bein L 3
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 1375
+        width: 341
+        height: 352
+      alignment: 9
+      pivot: {x: 0.14538825, y: 0.90599024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd13946fcfd13b44ab5e7b349804255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arm R 3
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 2917
+        width: 108
+        height: 138
+      alignment: 9
+      pivot: {x: 0.47313324, y: 0.78912795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f73be01437a3c64991498991e182656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arm L 3
+      rect:
+        serializedVersion: 2
+        x: 3533
+        y: 2886
+        width: 106
+        height: 139
+      alignment: 9
+      pivot: {x: 0.4642426, y: 0.838119}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3c129d2f7c4a648bb56eb587a2b7b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arm R 2
+      rect:
+        serializedVersion: 2
+        x: 2891
+        y: 3063
+        width: 140
+        height: 351
+      alignment: 9
+      pivot: {x: 0.5211356, y: 0.89622843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39a28707c2bbee448cc49e45535d475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arm L 2
+      rect:
+        serializedVersion: 2
+        x: 3518
+        y: 3042
+        width: 155
+        height: 355
+      alignment: 9
+      pivot: {x: 0.51002234, y: 0.8938511}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3102b2c0ffe490b4b87e87232f5882f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arm L 1
+      rect:
+        serializedVersion: 2
+        x: 3527
+        y: 3398
+        width: 206
+        height: 397
+      alignment: 9
+      pivot: {x: 0.6093501, y: 0.8424014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087506b2174069e47a31ebbc13775417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arm R 1
+      rect:
+        serializedVersion: 2
+        x: 2898
+        y: 3419
+        width: 196
+        height: 386
+      alignment: 9
+      pivot: {x: 0.619208, y: 0.8818291}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8af6ec9d3975bf4b81c773de2136daf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
