@@ -1,0 +1,284 @@
+fileFormatVersion: 2
+guid: 3eb2520f5be23154e9f5b51fbe694f62
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: schwanz
+    21300002: augapfel
+    21300004: kopf
+    21300006: auge
+    21300008: "k\xF6rper"
+    21300010: arm L
+    21300012: arm R
+    21300014: bein L
+    21300016: bein R
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: schwanz
+      rect:
+        serializedVersion: 2
+        x: 225.99997
+        y: 2737
+        width: 935.78125
+        height: 797.1094
+      alignment: 9
+      pivot: {x: 0.49958268, y: 0.4980496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6c37096d4932e4bb67d1e2ba550f68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: augapfel
+      rect:
+        serializedVersion: 2
+        x: 2088.0002
+        y: 3391.0002
+        width: 242.42188
+        height: 267.8125
+      alignment: 9
+      pivot: {x: 0.49500486, y: 0.4947482}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6acd8d15d8f22408147c6e7e2cf975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kopf
+      rect:
+        serializedVersion: 2
+        x: 2738.9531
+        y: 2792.0002
+        width: 699.4531
+        height: 779.53125
+      alignment: 9
+      pivot: {x: 0.4961689, y: 0.49901783}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36323a9ad1c043458b3d3847ad8ccdc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: auge
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 3057
+        width: 88.125
+        height: 207.26562
+      alignment: 9
+      pivot: {x: 0.49929076, y: 0.4945345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601578163ba4974448cf016936ed85aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "k\xF6rper"
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1596.0001
+        width: 424.0625
+        height: 777.578
+      alignment: 9
+      pivot: {x: 0.49756816, y: 0.4989853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228e126b976668941bac31908b55b9c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arm L
+      rect:
+        serializedVersion: 2
+        x: 1635.0001
+        y: 1620.0001
+        width: 209.21875
+        height: 752.1874
+      alignment: 9
+      pivot: {x: 0.4923077, y: 0.4998756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea94ae535045c34a8ccf7c0d488b297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arm R
+      rect:
+        serializedVersion: 2
+        x: 2221
+        y: 1623
+        width: 203.35938
+        height: 750.2344
+      alignment: 9
+      pivot: {x: 0.49419904, y: 0.49917734}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cb681b944004246887b097a8177b27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bein L
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 347
+        width: 385
+        height: 1021.71875
+      alignment: 9
+      pivot: {x: 0.49870127, y: 0.49915886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7da09302e4e472469fac4eb4bcdf950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bein R
+      rect:
+        serializedVersion: 2
+        x: 2129.846
+        y: 342.91946
+        width: 386.95312
+        height: 1029.5312
+      alignment: 9
+      pivot: {x: 0.49141365, y: 0.4978775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7485014d8ea31488f2377bb8bc2d91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 77ee96ff0006796429cdedafa72448a6
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 636626985681202008
+  assetBundleName: 
+  assetBundleVariant: 
