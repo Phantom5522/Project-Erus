@@ -6,8 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public GameObject optionsPanel;
-    public GameObject startPanel;
+    public GameObject[] Panels;
 
     public void Show(GameObject g)
     {
@@ -23,8 +22,11 @@ public class MainMenu : MonoBehaviour
     // Deaktiviert alle unter Menüs
     public void DeactivateAll()
     {
-        optionsPanel.SetActive(false);
-        startPanel.SetActive(false);
+        foreach (GameObject element in Panels)
+        {
+            element.SetActive(false);
+        }
+
     }
 
 
