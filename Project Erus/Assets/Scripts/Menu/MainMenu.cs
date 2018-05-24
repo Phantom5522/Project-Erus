@@ -40,7 +40,6 @@ public class MainMenu : MonoBehaviour
     {
         DeactivateAll();
         Application.Quit();
-        Debug.Log("Test");
     }
 
 
