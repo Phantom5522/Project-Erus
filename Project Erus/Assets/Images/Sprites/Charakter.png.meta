@@ -134,12 +134,12 @@ TextureImporter:
       name: kopf
       rect:
         serializedVersion: 2
-        x: 2738.9531
-        y: 2792.0002
+        x: 2739.0166
+        y: 2789.0952
         width: 699.4531
-        height: 779.53125
+        height: 781.4844
       alignment: 9
-      pivot: {x: 0.4961689, y: 0.49901783}
+      pivot: {x: 0.49607813, y: 0.50148803}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,12 +174,12 @@ TextureImporter:
       name: "k\xF6rper"
       rect:
         serializedVersion: 2
-        x: 482
-        y: 1596.0001
-        width: 424.0625
-        height: 777.578
+        x: 481.5782
+        y: 1594.3441
+        width: 427.9688
+        height: 775.6251
       alignment: 9
-      pivot: {x: 0.49756816, y: 0.4989853}
+      pivot: {x: 0.4940122, y: 0.5023767}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,12 +194,12 @@ TextureImporter:
       name: arm L
       rect:
         serializedVersion: 2
-        x: 1635.0001
-        y: 1620.0001
-        width: 209.21875
-        height: 752.1874
+        x: 1633.2817
+        y: 1620.8599
+        width: 207.26562
+        height: 752.18726
       alignment: 9
-      pivot: {x: 0.4923077, y: 0.4998756}
+      pivot: {x: 0.5052376, y: 0.49873272}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -214,12 +214,12 @@ TextureImporter:
       name: arm R
       rect:
         serializedVersion: 2
-        x: 2221
-        y: 1623
-        width: 203.35938
-        height: 750.2344
+        x: 2217.391
+        y: 1621.9766
+        width: 207.26562
+        height: 752.1875
       alignment: 9
-      pivot: {x: 0.49419904, y: 0.49917734}
+      pivot: {x: 0.5022969, y: 0.4992418}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -279,6 +279,6 @@ TextureImporter:
     edges: []
     weights: []
   spritePackingTag: 
-  userData: 636627614516111870
+  userData: 636627845768837170
   assetBundleName: 
   assetBundleVariant: 
