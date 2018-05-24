@@ -1879,7 +1879,7 @@ GameObject:
   - component: {fileID: 1022445424}
   - component: {fileID: 1022445423}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: Music Source
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1893,7 +1893,8 @@ AudioSource:
   m_GameObject: {fileID: 1022445422}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 243110727643319116, guid: 3b424bc5e61f19c418dcdfc4a1927fc5,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 82efeff821a226748ae1738f7eabaa9e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -3338,7 +3339,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d44ac864051c6e04299e7babc1c4e5d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioOutput: {fileID: 1022445423}
+  Mixer: {fileID: 24100000, guid: 3b424bc5e61f19c418dcdfc4a1927fc5, type: 2}
+  audioOutputs:
+  - {fileID: 1022445423}
   masterVolumeSlider: {fileID: 1244571090}
   masterVolumeValue: {fileID: 633996446}
   mute: {fileID: 1096812804}

@@ -3,10 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class OptionsMenu : MonoBehaviour {
 
-    public AudioSource audioOutput;
+    public AudioMixer Mixer;
+    public AudioSource[] audioOutputs;
     public Slider masterVolumeSlider;
     public Text masterVolumeValue;
     public Toggle mute;
@@ -31,8 +33,6 @@ public class OptionsMenu : MonoBehaviour {
 
 
         #endregion
-
-
     }
 
     #region Configure Graphics
@@ -47,16 +47,30 @@ public class OptionsMenu : MonoBehaviour {
 
         masterVolumeValue.text = masterVolumeSlider.value.ToString();
 
-        audioOutput.volume = masterVolumeSlider.value / 100;
+        //audioOutput.volume = masterVolumeSlider.value / 100;
+
+        Mixer.SetFloat("MasterVolume", AudioPercentToDb(masterVolumeSlider.value));
+
+
 
     }
 
     public void ChangedMute()
     {
         if (mute.isOn)
-            audioOutput.mute = true;
+        {
+            foreach (AudioSource element in audioOutputs)
+            {
+                element.mute = true;
+            }
+        }
         else
-            audioOutput.mute = false;
+        {
+            foreach (AudioSource element in audioOutputs)
+            {
+                element.mute = false;
+            }
+        }
 
         mainMute.GetComponent<Mute>().ChangeImage();
 
@@ -69,5 +83,10 @@ public class OptionsMenu : MonoBehaviour {
 
     #endregion
 
+    // Rechnet die Prozent in db um.
+    private float AudioPercentToDb(float percentage)
+    {
+        return Mathf.Log(percentage / 100 + 0.001f) * 20;
+    }
 
 }
