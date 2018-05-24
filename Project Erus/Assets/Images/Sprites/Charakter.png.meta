@@ -214,12 +214,12 @@ TextureImporter:
       name: arm R
       rect:
         serializedVersion: 2
-        x: 2217.391
-        y: 1621.9766
+        x: 2218.0493
+        y: 1620.9064
         width: 207.26562
-        height: 752.1875
+        height: 752.1876
       alignment: 9
-      pivot: {x: 0.5022969, y: 0.4992418}
+      pivot: {x: 0.49912128, y: 0.5006645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -279,6 +279,6 @@ TextureImporter:
     edges: []
     weights: []
   spritePackingTag: 
-  userData: 636627845768837170
+  userData: 636627854198466997
   assetBundleName: 
   assetBundleVariant: 
