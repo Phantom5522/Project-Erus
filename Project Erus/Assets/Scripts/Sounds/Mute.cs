@@ -8,8 +8,7 @@ using UnityEngine.UI;
 public class Mute : MonoBehaviour, IPointerDownHandler
 {
     // Inspector
-    public bool isMuted = false;
-    public AudioSource soundSource;
+    public Toggle mute;
     public Sprite mutedSprite;
 
     // private
@@ -22,32 +21,20 @@ public class Mute : MonoBehaviour, IPointerDownHandler
         // Get Image and Save the current Sprite
         image = GetComponent<Image>();
         saveSprite = image.sprite;
-
-        if (isMuted)
-            SpeakerOff();
-	}
+    }
 
     void IPointerDownHandler.OnPointerDown(PointerEventData eventData)
     {
-        isMuted = !isMuted;
+        mute.isOn = !mute.isOn;
+    }
 
-        if (isMuted)
-            SpeakerOff();
+    public void ChangeImage()
+    {
+        if (mute.isOn)
+            image.sprite = mutedSprite;
         else
-            SpeakerOn();
+            image.sprite = saveSprite;
 
-    }
-
-    private void SpeakerOn()
-    {
-        image.sprite = saveSprite;
-        soundSource.mute = false;
-    }
-
-    private void SpeakerOff()
-    {
-        image.sprite = mutedSprite;
-        soundSource.mute = true;
     }
 
 }
