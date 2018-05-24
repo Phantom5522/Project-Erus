@@ -94,12 +94,12 @@ TextureImporter:
       name: schwanz
       rect:
         serializedVersion: 2
-        x: 225.99997
-        y: 2737
-        width: 935.78125
-        height: 797.1094
+        x: 225.43755
+        y: 2737.672
+        width: 937.7343
+        height: 795.15625
       alignment: 9
-      pivot: {x: 0.49958268, y: 0.4980496}
+      pivot: {x: 0.4991419, y: 0.4984277}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -234,12 +234,12 @@ TextureImporter:
       name: bein L
       rect:
         serializedVersion: 2
-        x: 1503
-        y: 347
-        width: 385
-        height: 1021.71875
+        x: 1504.0469
+        y: 346.34375
+        width: 386.95312
+        height: 1025.625
       alignment: 9
-      pivot: {x: 0.49870127, y: 0.49915886}
+      pivot: {x: 0.4934787, y: 0.49789757}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -254,12 +254,12 @@ TextureImporter:
       name: bein R
       rect:
         serializedVersion: 2
-        x: 2129.846
+        x: 2129.8457
         y: 342.91946
-        width: 386.95312
+        width: 386.95337
         height: 1029.5312
       alignment: 9
-      pivot: {x: 0.49141365, y: 0.4978775}
+      pivot: {x: 0.49141398, y: 0.4978775}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -279,6 +279,6 @@ TextureImporter:
     edges: []
     weights: []
   spritePackingTag: 
-  userData: 636626985681202008
+  userData: 636627614516111870
   assetBundleName: 
   assetBundleVariant: 
