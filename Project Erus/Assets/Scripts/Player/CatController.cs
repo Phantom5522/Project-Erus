@@ -7,11 +7,13 @@ public enum LookingDirection { Left, Right};
 public class CatController : MonoBehaviour {
 
     public float walkSpeed = 2;
-    public float runSpeed = 5;
+    public float runSpeed = 5;  // Multiplication of walkSpeed
+    public float jumpForce = 0.0005f;
 
     LookingDirection lookingDirectionCat = LookingDirection.Right;
     bool isWalking;
     bool isRunning;
+    bool isJumping = false;
 
     Rigidbody2D rb2dCat;
     Animator ani;
@@ -30,9 +32,14 @@ public class CatController : MonoBehaviour {
 
     private void FixedUpdate()
     {
-        float currentSpeed = walkSpeed; // Speichert die aktuelle Geschwindigkeit
 
         // Bewegen
+        float currentSpeed = walkSpeed; // Speichert die aktuelle Geschwindigkeit
+
+        // Zurücksetzten 
+        ani.SetBool("isWalking", false);
+        ani.SetBool("isRunning", false);
+
 
         // Move Left
         if (Input.GetKey(KeyCode.A))
@@ -54,9 +61,22 @@ public class CatController : MonoBehaviour {
         else
         {
             rb2dCat.velocity = new Vector2(0, rb2dCat.velocity.y);
+        }
+
+        // Running
+        if (Input.GetKey(KeyCode.LeftShift) && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
+        {
+            rb2dCat.velocity = new Vector2(rb2dCat.velocity.x * runSpeed, rb2dCat.velocity.y);
 
             ani.SetBool("isWalking", false);
-            ani.SetBool("isRunning", false);
+            ani.SetBool("isRunning", true);
+        }
+
+        // Jumping
+        if (Input.GetKey(KeyCode.Space) && !isJumping)
+        {
+            isJumping = true;
+            rb2dCat.AddForce(new Vector2(0, jumpForce));
         }
 
 
@@ -70,6 +90,12 @@ public class CatController : MonoBehaviour {
             lookingDirectionCat = changeTo;
             transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
         }
+    }
+
+    // 
+    public void OnCollisionEnter2D(Collision2D coll)
+    {
+        isJumping = false;
     }
 
 }
