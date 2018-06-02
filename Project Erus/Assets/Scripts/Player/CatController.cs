@@ -14,15 +14,16 @@ public class CatController : MonoBehaviour {
     bool isWalking;
     bool isRunning;
     bool isJumping = false;
+    bool isCollided;
 
     Rigidbody2D rb2dCat;
     Animator ani;
+    
 
 	void Start () {
 
         rb2dCat = GetComponent<Rigidbody2D>();
         ani = GetComponent<Animator>();
-
 	}
 	
 	// Update is called once per frame
@@ -76,6 +77,7 @@ public class CatController : MonoBehaviour {
         if (Input.GetKey(KeyCode.Space) && !isJumping)
         {
             isJumping = true;
+            ani.SetBool("isJumping", true);
             rb2dCat.AddForce(new Vector2(0, jumpForce));
         }
 
@@ -96,6 +98,7 @@ public class CatController : MonoBehaviour {
     public void OnCollisionEnter2D(Collision2D coll)
     {
         isJumping = false;
+        ani.SetBool("isJumping", false);
     }
 
 }
