@@ -117,7 +117,8 @@ public class OptionsMenu : MonoBehaviour {
             }
         }
 
-        mainMute.GetComponent<Mute>().ChangeImage();
+        if (mainMute != null)
+            mainMute.GetComponent<Mute>().ChangeImage();
 
     }
 
