@@ -102,17 +102,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 7680
+        y: 0
         width: 512
         height: 512
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 080c2d860c82ae943ad8d003a239d74e
+      spriteID: 7e2f2d2ef20741149b1e0cb82c25ef37
       vertices: []
       indices: 
       edges: []
@@ -121,18 +121,18 @@ TextureImporter:
       name: Wasser_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 7168
+        x: 512
+        y: 0
         width: 512
         height: 512
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d34b88729b4128b419392a039cf21a34
+      spriteID: 805bd8bf81805eb4f9bf067bdb0968c4
       vertices: []
       indices: 
       edges: []
@@ -141,18 +141,18 @@ TextureImporter:
       name: Wasser_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 6656
+        x: 1024
+        y: 0
         width: 512
         height: 512
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4e77c03ce80645409db5d183ee55183
+      spriteID: 542bf70a766e5e1479cf6eab179c5f3d
       vertices: []
       indices: 
       edges: []
@@ -161,18 +161,18 @@ TextureImporter:
       name: Wasser_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 6144
+        x: 1536
+        y: 0
         width: 512
         height: 512
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d473bb5c0f5c8e42858fdb10c9cbae3
+      spriteID: e30ce99f132ac3744b320cfd6dd41f07
       vertices: []
       indices: 
       edges: []
@@ -181,18 +181,18 @@ TextureImporter:
       name: Wasser_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 5632
+        x: 2048
+        y: 0
         width: 512
         height: 512
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5aafabcc243891a4b9d1614b1009bd2c
+      spriteID: fe88495246c918a4e963c73347fc8b33
       vertices: []
       indices: 
       edges: []
@@ -201,18 +201,18 @@ TextureImporter:
       name: Wasser_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 5120
+        x: 2560
+        y: 0
         width: 512
         height: 512
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78d484cfce5876d40a36e7776d18c8ec
+      spriteID: c4182934b9a238240af175b7d224666a
       vertices: []
       indices: 
       edges: []
@@ -221,18 +221,18 @@ TextureImporter:
       name: Wasser_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 4608
+        x: 3072
+        y: 0
         width: 512
         height: 512
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78f2a6a70c54bee49a94d57e7ab24880
+      spriteID: fe37b1779923af647b145e4df0aebf90
       vertices: []
       indices: 
       edges: []
@@ -241,18 +241,18 @@ TextureImporter:
       name: Wasser_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 4096
+        x: 3584
+        y: 0
         width: 512
         height: 512
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2668d371960f6b42b690b6b96b6e1b6
+      spriteID: a3d7723df5d9b1442ae8811c1ffce138
       vertices: []
       indices: 
       edges: []
@@ -261,18 +261,18 @@ TextureImporter:
       name: Wasser_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3584
+        x: 4096
+        y: 0
         width: 512
         height: 512
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33e3ef2d8ef28954c890ff4787d7fd41
+      spriteID: c32e38d567b5c4f4684723ac53793ccb
       vertices: []
       indices: 
       edges: []
@@ -281,18 +281,18 @@ TextureImporter:
       name: Wasser_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3072
+        x: 4608
+        y: 0
         width: 512
         height: 512
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be8662cc53f2cdf4c864fd8377ef5519
+      spriteID: c77bb58db15814248829063eb0a0ad69
       vertices: []
       indices: 
       edges: []
@@ -301,18 +301,18 @@ TextureImporter:
       name: Wasser_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2560
+        x: 5120
+        y: 0
         width: 512
         height: 512
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0bb51ac50beaf2489aa1cf96c588800
+      spriteID: cbc625987876755459e968a9ce912a2d
       vertices: []
       indices: 
       edges: []
@@ -321,18 +321,18 @@ TextureImporter:
       name: Wasser_11
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2048
+        x: 5632
+        y: 0
         width: 512
         height: 512
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c20c04a1c2126446bd23d1ec1924670
+      spriteID: 5e1b8711f1bbe254f937753893e0fdc3
       vertices: []
       indices: 
       edges: []
@@ -341,18 +341,18 @@ TextureImporter:
       name: Wasser_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1536
+        x: 6144
+        y: 0
         width: 512
         height: 512
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00536001a2c7e3a4bbd02f065b09c4de
+      spriteID: 41aa0435da18c7742b7e15090298d495
       vertices: []
       indices: 
       edges: []
@@ -361,18 +361,18 @@ TextureImporter:
       name: Wasser_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1024
+        x: 6656
+        y: 0
         width: 512
         height: 512
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a618d930a5dfabd429f63a73654b4179
+      spriteID: 4a3a20ecaeb2e144eb7afb61f89b4f18
       vertices: []
       indices: 
       edges: []
@@ -381,18 +381,18 @@ TextureImporter:
       name: Wasser_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 512
+        x: 7168
+        y: 0
         width: 512
         height: 512
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38ea58e676ee3614487abb693dc42c86
+      spriteID: a2cc2ce8e8282ff4589e76e589fa6831
       vertices: []
       indices: 
       edges: []
@@ -401,18 +401,18 @@ TextureImporter:
       name: Wasser_15
       rect:
         serializedVersion: 2
-        x: 0
+        x: 7680
         y: 0
         width: 512
         height: 512
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9775e90f9025cfa42b6e7c12daa048ae
+      spriteID: 27403f12db93ac040a6cabd845e1adbf
       vertices: []
       indices: 
       edges: []
@@ -420,7 +420,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 87a75dd965303854799ee6b9ec0e47be
+    spriteID: c60db66143b426d4182cead9fb096354
     vertices: []
     indices: 
     edges: []
