@@ -237,7 +237,7 @@ MonoBehaviour:
   god: {fileID: 808404098}
   walkSpeed: 3
   runSpeed: 3
-  jumpForce: 550
+  jumpForce: 700
 --- !u!1 &109503333
 GameObject:
   m_ObjectHideFlags: 0
