@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Menu
   m_EditorClassIdentifier: 
   debugViews:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       mode: 0
       depth:
@@ -71,9 +71,9 @@ MonoBehaviour:
   depthOfField:
     m_Enabled: 0
     m_Settings:
-      focusDistance: 10
-      aperture: 5.6
-      focalLength: 50
+      focusDistance: 0.34
+      aperture: 10
+      focalLength: 50.68
       useCameraFov: 0
       kernelSize: 1
   motionBlur:
@@ -112,7 +112,7 @@ MonoBehaviour:
     m_Enabled: 0
     m_Settings:
       tonemapping:
-        tonemapper: 2
+        tonemapper: 1
         neutralBlackIn: 0.02
         neutralWhiteIn: 10
         neutralBlackOut: 0
@@ -120,12 +120,12 @@ MonoBehaviour:
         neutralWhiteLevel: 5.3
         neutralWhiteClip: 10
       basic:
-        postExposure: 0
+        postExposure: 0.91
         temperature: 0
         tint: 0
         hueShift: 0
-        saturation: 1
-        contrast: 1
+        saturation: 0.78
+        contrast: 1.33
       channelMixer:
         red: {x: 1, y: 0, z: 0}
         green: {x: 0, y: 1, z: 0}
@@ -134,9 +134,9 @@ MonoBehaviour:
       colorWheels:
         mode: 1
         log:
-          slope: {r: 0, g: 0, b: 0, a: 0}
-          power: {r: 0, g: 0, b: 0, a: 0}
-          offset: {r: 0, g: 0, b: 0, a: 0}
+          slope: {r: 1, g: 1, b: 1, a: 0}
+          power: {r: 1, g: 1, b: 1, a: 0}
+          offset: {r: 1, g: 1, b: 1, a: 0}
         linear:
           lift: {r: 0, g: 0, b: 0, a: 0}
           gamma: {r: 0, g: 0, b: 0, a: 0}
@@ -149,8 +149,17 @@ MonoBehaviour:
             - serializedVersion: 3
               time: 0
               value: 0
-              inSlope: 1
-              outSlope: 1
+              inSlope: 0.9853175
+              outSlope: 0.9853175
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.6980609
+              value: 0.58235294
+              inSlope: 1.0048579
+              outSlope: 1.0048579
               tangentMode: 0
               weightedMode: 0
               inWeight: 0
@@ -158,8 +167,8 @@ MonoBehaviour:
             - serializedVersion: 3
               time: 1
               value: 1
-              inSlope: 1
-              outSlope: 1
+              inSlope: 3.221907
+              outSlope: 3.221907
               tangentMode: 0
               weightedMode: 0
               inWeight: 0
