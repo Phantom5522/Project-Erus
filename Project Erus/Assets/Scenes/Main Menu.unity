@@ -2900,6 +2900,7 @@ GameObject:
   - component: {fileID: 1666300129}
   - component: {fileID: 1666300132}
   - component: {fileID: 1666300131}
+  - component: {fileID: 1666300130}
   m_Layer: 5
   m_Name: Kugel
   m_TagString: Untagged
@@ -2925,6 +2926,24 @@ RectTransform:
   m_AnchoredPosition: {x: -64.3, y: -49.7}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1666300130
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1666300128}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9a266bbb026b76c44a1d2d41ecbac3bb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1666300131
 MonoBehaviour:
   m_ObjectHideFlags: 0
