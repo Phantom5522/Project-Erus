@@ -8,19 +8,23 @@ public class CatController : MonoBehaviour {
 
     public GameObject god;
     public float walkSpeed = 2;
-    public float runSpeed = 5;  // Multiplication of walkSpeed
-    public float jumpForce = 0.0005f;
+    public float runSpeed = 3;  // Multiplication of walkSpeed
+    public float xJumpRange = 0.5f; // Multiplication to smaller the range while the character is jumping
+    public float jumpForce = 750f;
 
     LookingDirection lookingDirectionCat = LookingDirection.Right;
     bool isWalking;
     bool isRunning;
+
     [HideInInspector]
     public bool isJumping = false;
-    bool isCollided;
+    private int jumpTime = 0;
 
     Rigidbody2D rb2dCat;
     Animator ani;
     InGameUI uiObject;
+
+    private float addVelocity;
 
     void Start () {
 
@@ -36,6 +40,7 @@ public class CatController : MonoBehaviour {
 
     private void FixedUpdate()
     {
+
         // Bewegen
         float currentSpeed = walkSpeed; // Speichert die aktuelle Geschwindigkeit
 
@@ -47,7 +52,7 @@ public class CatController : MonoBehaviour {
         // Move Left
         if (Input.GetKey(KeyCode.A) && !uiObject.inMenu)
         {
-            rb2dCat.velocity = new Vector2(-1 * currentSpeed, rb2dCat.velocity.y);
+            rb2dCat.velocity = new Vector2((-1 * currentSpeed) + (addVelocity * currentSpeed), rb2dCat.velocity.y);
             Flip(LookingDirection.Left);
 
             ani.SetBool("isWalking", true);
@@ -55,7 +60,7 @@ public class CatController : MonoBehaviour {
         // Move Right
         else if (Input.GetKey(KeyCode.D) && !uiObject.inMenu)
         {
-            rb2dCat.velocity = new Vector2(currentSpeed, rb2dCat.velocity.y);
+            rb2dCat.velocity = new Vector2(currentSpeed + (addVelocity * currentSpeed), rb2dCat.velocity.y);
             Flip(LookingDirection.Right);
 
             ani.SetBool("isWalking", true);
@@ -78,11 +83,26 @@ public class CatController : MonoBehaviour {
 
             }
 
+
+
             // Jumping
             if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
             {
                 Jump(jumpForce);
             }
+        }
+
+        // Andere Kraft, z.B. Jump Bush
+        if (addVelocity != 0)
+        {
+            if (addVelocity <= 1 && addVelocity >= -1)
+                addVelocity = 0;
+            else if (addVelocity < -1)
+                addVelocity += 0.1f;
+            else
+                addVelocity -= 0.1f;
+
+            Debug.Log(addVelocity);
         }
 
     }
@@ -98,25 +118,41 @@ public class CatController : MonoBehaviour {
     }
 
     // 
-    public void OnCollisionStay2D(Collision2D coll) {
+    public void OnCollisionEnter2D(Collision2D coll) {
 
-        isJumping = false;
-        ani.SetBool("isJumping", false);
+            Debug.Log("Aus");
+            isJumping = false;
+            ani.SetBool("isJumping", false);
+
     }
 
 
-    public void Jump(float force) {
+    public void Jump(float force, bool wait = false) {
 
-        Invoke("ChangeJumping", 0.1f);
-        ani.SetBool("isJumping", true);
-        
         rb2dCat.AddForce(new Vector2(0, force));
 
+        if (wait)
+            StartCoroutine(WaitJump(0.05f, force));
+        else
+            StartCoroutine(WaitJump(0, force));
+
+
+
     }
 
+    IEnumerator WaitJump(float sec, float force) {
 
-    private void ChangeJumping() {
+        yield return new WaitForSeconds(sec);
 
+        ani.SetBool("isJumping", true);
         isJumping = true;
+        
+
+    }
+
+    public void XAxisForce(float speed) {
+
+        addVelocity = speed;
+        
     }
 }

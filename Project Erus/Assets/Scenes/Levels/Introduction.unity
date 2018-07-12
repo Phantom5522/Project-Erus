@@ -2140,8 +2140,9 @@ GameObject:
   - component: {fileID: 239537034}
   - component: {fileID: 239537033}
   - component: {fileID: 239537032}
+  - component: {fileID: 239537036}
   m_Layer: 0
-  m_Name: Busch
+  m_Name: Bush
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2158,8 +2159,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6a21e3e266fbc54fb05a754bd46c9d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 500
-  direction: 0
+  jumpForce: 3
+  direction: 2
 --- !u!61 &239537033
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2168,7 +2169,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 239537031}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 25416d6cc5cf383498366f4699395f2a, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2241,8 +2242,21 @@ Transform:
   m_LocalScale: {x: 0.54161364, y: 0.54161364, z: 0.54161364}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &239537036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 239537031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6a21e3e266fbc54fb05a754bd46c9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpForce: 750
+  direction: 0
 --- !u!1 &247182571
 GameObject:
   m_ObjectHideFlags: 0
@@ -6496,7 +6510,7 @@ Transform:
   m_LocalScale: {x: 0.5640186, y: 0.5640186, z: 0.5640186}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &647138812
 GameObject:
@@ -7517,7 +7531,7 @@ Transform:
   m_LocalScale: {x: 0.83723164, y: 0.83723164, z: 0.83723164}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &740496087
 GameObject:
@@ -9872,7 +9886,7 @@ Transform:
   m_LocalScale: {x: 0.63028455, y: 0.63028455, z: 0.63028455}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1019114229
 GameObject:
@@ -16182,7 +16196,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1666671740}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 25416d6cc5cf383498366f4699395f2a, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -16207,7 +16221,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1666671740}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 25416d6cc5cf383498366f4699395f2a, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -16985,7 +16999,7 @@ GameObject:
   - component: {fileID: 1743373507}
   - component: {fileID: 1743373509}
   m_Layer: 0
-  m_Name: player
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17040,7 +17054,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 1.25
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -17059,7 +17073,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   god: {fileID: 808404098}
   walkSpeed: 4.25
-  runSpeed: 5
+  runSpeed: 3
+  xJumpRange: 0.5
   jumpForce: 500
   isJumping: 0
 --- !u!61 &1743373508
@@ -20317,7 +20332,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2052171324
 GameObject:

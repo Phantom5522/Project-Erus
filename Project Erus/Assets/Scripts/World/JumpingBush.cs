@@ -6,7 +6,7 @@ public enum Direction { Up = 0, Down, Left, Right };
 
 public class JumpingBush : MonoBehaviour {
 
-    public float jumpForce = 500f;
+    public float jumpForce = 750f; // For x-Movement approximately 3
     public Direction direction = Direction.Up;
 
     private CatController playerScript;
@@ -19,26 +19,20 @@ public class JumpingBush : MonoBehaviour {
         playerScript = collision.collider.GetComponent<CatController>();
         ani = collision.collider.GetComponent<Animator>();
 
-        if (rb != null)
-        {
+        // Sprung von oben
+        if (collision.contacts[0].normal.y == -1 && direction == Direction.Up && rb.velocity.y < 1 && rb.velocity.y > -1)
+            playerScript.Jump(jumpForce, true);
+        // Sprung von Unten
+        else if (collision.contacts[0].normal.y == 1 && direction == Direction.Down)
+            rb.AddForce(new Vector2(0, -jumpForce));
+        else if (collision.contacts[0].normal.x == 1 && direction == Direction.Left)
+            playerScript.XAxisForce(-jumpForce);
+        else if (collision.contacts[0].normal.x == -1 && direction == Direction.Right)
+            playerScript.XAxisForce(jumpForce);
 
-            playerScript.Jump(jumpForce);
 
-            /*
-            if (direction == Direction.Left || direction == Direction.Down)
-                jumpForce = -1 * jumpForce;
 
-            Vector2 directVec;
 
-            if (direction == Direction.Up || direction == Direction.Down)
-                directVec = new Vector2(0, jumpForce);
-            else
-                directVec = new Vector2(jumpForce, 0);
-
-            rb.AddForce(directVec);*/
-
-            
-        }
     }
 
 }
