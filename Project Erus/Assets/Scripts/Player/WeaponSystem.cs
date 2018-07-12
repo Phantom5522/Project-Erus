@@ -13,9 +13,8 @@ public class WeaponSystem : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-        curWeapon = Instantiate(weaponPrefabs[curWeaponIndex]);
-        curWeapon.transform.SetParent(weaponBone.transform, false);
 
+        switchWeapon(curWeaponIndex);
 
 
     }
@@ -34,9 +33,9 @@ public class WeaponSystem : MonoBehaviour {
         else if (Input.mouseScrollDelta.y < 0)
         {
             if (curWeaponIndex - 1 < 0)
-                switchWeapon(0);
+                switchWeapon(weaponPrefabs.Length-1);
             else
-                switchWeapon(curWeaponIndex + 1);
+                switchWeapon(curWeaponIndex - 1);
         }
 
 
@@ -44,7 +43,11 @@ public class WeaponSystem : MonoBehaviour {
 
     private void switchWeapon(int index) {
 
+        Destroy(curWeapon);
 
+        curWeaponIndex = index;
+        curWeapon = Instantiate(weaponPrefabs[index]);
+        curWeapon.transform.SetParent(weaponBone.transform, false);
 
     }
 
