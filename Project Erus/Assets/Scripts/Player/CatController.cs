@@ -74,6 +74,7 @@ public class CatController : MonoBehaviour {
 
                 ani.SetBool("isWalking", false);
                 ani.SetBool("isRunning", true);
+
             }
 
             // Jumping
