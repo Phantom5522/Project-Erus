@@ -6,8 +6,8 @@ public enum Direction { Up = 0, Down, Left, Right };
 
 public class JumpingBush : MonoBehaviour {
 
-    public float jumpForce = 10f;
-    public Direction direct = Direction.Up;
+    public float jumpForce = 500f;
+    public Direction direction = Direction.Up;
 
     private CatController playerScript;
     private Animator ani;
@@ -21,20 +21,23 @@ public class JumpingBush : MonoBehaviour {
 
         if (rb != null)
         {
-            playerScript.isJumping = true;
-            ani.SetBool("isJumping", true);
 
-            if (direct == Direction.Left || direct == Direction.Down)
+            playerScript.Jump(jumpForce);
+
+            /*
+            if (direction == Direction.Left || direction == Direction.Down)
                 jumpForce = -1 * jumpForce;
 
-            Vector2 velocity = rb.velocity;
+            Vector2 directVec;
 
-            if (direct == Direction.Up || direct == Direction.Down)
-                velocity.y = jumpForce;
+            if (direction == Direction.Up || direction == Direction.Down)
+                directVec = new Vector2(0, jumpForce);
             else
-                velocity.x = jumpForce;
+                directVec = new Vector2(jumpForce, 0);
 
-            rb.velocity = velocity;
+            rb.AddForce(directVec);*/
+
+            
         }
     }
 
