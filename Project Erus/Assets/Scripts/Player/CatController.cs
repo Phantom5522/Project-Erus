@@ -14,7 +14,8 @@ public class CatController : MonoBehaviour {
     LookingDirection lookingDirectionCat = LookingDirection.Right;
     bool isWalking;
     bool isRunning;
-    bool isJumping = false;
+    [HideInInspector]
+    public bool isJumping = false;
     bool isCollided;
 
     Rigidbody2D rb2dCat;
@@ -35,6 +36,8 @@ public class CatController : MonoBehaviour {
 
     private void FixedUpdate()
     {
+        Debug.Log(isJumping);
+
         // Bewegen
         float currentSpeed = walkSpeed; // Speichert die aktuelle Geschwindigkeit
 
@@ -80,7 +83,7 @@ public class CatController : MonoBehaviour {
             // Jumping
             if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
             {
-                isJumping = true;
+                Invoke("changeJumping",0.05f);
                 ani.SetBool("isJumping", true);
                 rb2dCat.AddForce(new Vector2(0, jumpForce));
             }
@@ -99,10 +102,14 @@ public class CatController : MonoBehaviour {
     }
 
     // 
-    public void OnCollisionEnter2D(Collision2D coll)
+    public void OnCollisionStay2D(Collision2D coll)
     {
         isJumping = false;
         ani.SetBool("isJumping", false);
     }
 
+    void changeJumping()
+    {
+        isJumping = true;
+    }
 }
