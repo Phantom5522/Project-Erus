@@ -556,7 +556,7 @@ AnimatorState:
   m_PrefabInternal: {fileID: 0}
   m_Name: combo2_attack_sword
   m_Speed: 0
-  m_CycleOffset: 0
+  m_CycleOffset: 1
   m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
