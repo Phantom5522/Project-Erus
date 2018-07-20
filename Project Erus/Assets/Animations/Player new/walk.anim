@@ -462,7 +462,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 0, z: 23.822}
+        value: {x: 0, y: 0, z: 35.779003}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -480,7 +480,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: 0, y: 0, z: 23.822}
+        value: {x: 0, y: 0, z: 35.779003}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -523,7 +523,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 0, z: 9.206}
+        value: {x: 0, y: 0, z: 21.573002}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -532,7 +532,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: 0, y: 0, z: 9.206}
+        value: {x: 0, y: 0, z: 21.573002}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -1557,6 +1557,83 @@ AnimationClip:
       2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
       bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
       bone/New bone
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: 0, z: -10071.09}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 1
+        value: {x: 0, y: 0, z: -10071.09}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: 0, z: -4.52}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 1
+        value: {x: 0, y: 0, z: -4.52}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone/New bone/New bone/New bone/New bone
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: 0, z: -0.99500006}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 1
+        value: {x: 0, y: 0, z: -0.99500006}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone/New bone/New bone/New bone
   m_PositionCurves:
   - curve:
       serializedVersion: 2
@@ -1871,7 +1948,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 2.17, y: 7.02, z: 0}
+        value: {x: 3.61, y: 6.82, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -1880,7 +1957,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.5
-        value: {x: 1.97, y: 6.96, z: 0}
+        value: {x: 3.19, y: 6.96, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -1889,7 +1966,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: 2.17, y: 7.02, z: 0}
+        value: {x: 3.61, y: 6.82, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -1901,94 +1978,7 @@ AnimationClip:
       m_RotationOrder: 4
     path: IK/head IK
   m_ScaleCurves: []
-  m_FloatCurves:
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_Color.a
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/arm r/New bone/New
-      bone/template 2
-    classID: 212
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_Color.a
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/arm r/New bone/template
-      1
-    classID: 212
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_Color.a
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/arm r/New bone/New
-      bone/New bone/template 3
-    classID: 212
-    script: {fileID: 0}
+  m_FloatCurves: []
   m_PPtrCurves: []
   m_SampleRate: 60
   m_WrapMode: 0
@@ -2383,25 +2373,25 @@ AnimationClip:
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2493184083
-      attribute: 304273561
+      path: 1447696152
+      attribute: 4
       script: {fileID: 0}
-      typeID: 212
-      customType: 0
+      typeID: 4
+      customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 810115858
-      attribute: 304273561
+      path: 2927818997
+      attribute: 4
       script: {fileID: 0}
-      typeID: 212
-      customType: 0
+      typeID: 4
+      customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2869921285
-      attribute: 304273561
+      path: 115502560
+      attribute: 4
       script: {fileID: 0}
-      typeID: 212
-      customType: 0
+      typeID: 4
+      customType: 4
       isPPtrCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
@@ -3426,7 +3416,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 2.17
+        value: 3.61
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3435,7 +3425,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5
-        value: 1.97
+        value: 3.19
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3444,7 +3434,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 2.17
+        value: 3.61
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3463,7 +3453,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 7.02
+        value: 6.82
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3481,7 +3471,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 7.02
+        value: 6.82
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3531,93 +3521,6 @@ AnimationClip:
     attribute: m_LocalPosition.z
     path: IK/head IK
     classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_Color.a
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/arm r/New bone/New
-      bone/template 2
-    classID: 212
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_Color.a
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/arm r/New bone/template
-      1
-    classID: 212
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_Color.a
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/arm r/New bone/New
-      bone/New bone/template 3
-    classID: 212
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -5149,7 +5052,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 23.822
+        value: 35.779003
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -5167,7 +5070,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 23.822
+        value: 35.779003
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -5332,7 +5235,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 9.206
+        value: 21.573002
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -5341,7 +5244,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 9.206
+        value: 21.573002
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -8665,6 +8568,264 @@ AnimationClip:
       bone/New bone
     classID: 4
     script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -10071.09
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: -10071.09
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -4.52
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: -4.52
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.99500006
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: -0.99500006
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
   m_EulerEditorCurves:
   - curve:
       serializedVersion: 2
@@ -8673,6 +8834,219 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+      bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+      bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+      bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
     path: Armature/body/New bone/tail/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
@@ -8737,7 +9111,7 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
     path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone
+      bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8748,7 +9122,7 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
     path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone
+      bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8759,40 +9133,7 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
     path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+      bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8823,42 +9164,6 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
     path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8931,73 +9236,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
-      bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
-      bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
-      bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
       bone/New bone
     classID: 4
     script: {fileID: 0}
@@ -9008,7 +9248,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
       bone/New bone
     classID: 4
     script: {fileID: 0}
@@ -9019,7 +9260,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
       bone/New bone
     classID: 4
     script: {fileID: 0}
@@ -9030,7 +9272,44 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
       bone/New bone/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
@@ -9041,7 +9320,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
       bone/New bone/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
@@ -9052,7 +9332,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
       bone/New bone/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
@@ -9064,7 +9345,145 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
       2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
       bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
@@ -9076,7 +9495,7 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
       bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
@@ -9088,7 +9507,7 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
       bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
@@ -9101,6 +9520,42 @@ AnimationClip:
     attribute: m_LocalEulerAngles.z
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
       1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
       bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
       bone
     classID: 4
@@ -9138,9 +9593,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9150,9 +9604,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9162,117 +9615,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9316,8 +9660,7 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9328,8 +9671,7 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9340,47 +9682,7 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9423,9 +9725,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9435,9 +9736,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9447,9 +9747,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9529,108 +9828,6 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
       2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
       bone/New bone/New bone
     classID: 4
@@ -9667,8 +9864,7 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone
+      1/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9679,8 +9875,7 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone
+      1/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9691,8 +9886,70 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone
+      1/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9703,7 +9960,9 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone
+      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9714,7 +9973,9 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone
+      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9725,7 +9986,9 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone
+      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9768,41 +10031,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone/New bone/New bone
+      1/New bone/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9813,7 +10043,7 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone/New bone/New bone
+      1/New bone/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9824,7 +10054,7 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone/New bone/New bone
+      1/New bone/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9977,42 +10207,6 @@ AnimationClip:
     attribute: m_LocalEulerAngles.z
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
       1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
       bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
@@ -10049,147 +10243,6 @@ AnimationClip:
     attribute: m_LocalEulerAngles.z
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
       1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
       bone/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
@@ -10201,7 +10254,7 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
       bone/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
@@ -10213,7 +10266,7 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
       bone/New bone/New bone/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
@@ -10223,11 +10276,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
+    attribute: m_LocalEulerAngles.z
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone
+      2/New bone (1)/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10238,9 +10289,18 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
-      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone
+      2/New bone (1)/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10252,8 +10312,205 @@ AnimationClip:
     attribute: m_LocalEulerAngles.z
     path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
       2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      2/New bone (1)/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature/body/New bone/New bone/New bone/New bone/New bone/New bone/scarf/scarf
+      1/New bone/New bone/New bone/New bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
       bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
-      bone/New bone
+      bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Armature/body/New bone/tail/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
