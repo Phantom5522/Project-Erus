@@ -35,6 +35,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4012567174529576}
   - component: {fileID: 212215923202586916}
+  - component: {fileID: 114191505666712642}
   m_Layer: 0
   m_Name: Sword,Blade1_1
   m_TagString: Untagged
@@ -69,6 +70,19 @@ Transform:
   m_Father: {fileID: 4012567174529576}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114191505666712642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1569840512566036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dcdcdc9d2d12f44abb91f989adda365, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationInteger: ComboAttackSword
+  comboLength: 0
 --- !u!212 &212215923202586916
 SpriteRenderer:
   m_ObjectHideFlags: 1
