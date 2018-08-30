@@ -16,6 +16,9 @@ public class CatController : MonoBehaviour {
     bool isWalking;
     bool isRunning;
 
+    bool isMovementBlocked = false;
+    public bool IsMovementBlocked { get { return isMovementBlocked; } }
+
     [HideInInspector]
     public bool isJumping = false;
     private int jumpTime = 0;
@@ -35,79 +38,85 @@ public class CatController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Debug.Log("Jumping: " + isJumping);
-        Debug.Log("Frame Space: " + Input.GetKey(KeyCode.Space));
+        //Debug.Log("Jumping: " + isJumping);
+        //Debug.Log("Frame Space: " + Input.GetKey(KeyCode.Space));
     }
 
     private void FixedUpdate()
     {
 
-        Debug.Log("Fixed Space: " + Input.GetKey(KeyCode.Space));
-
-        // Bewegen
-        float currentSpeed = walkSpeed; // Speichert die aktuelle Geschwindigkeit
-
-        // Zurücksetzten 
-        ani.SetBool("isWalking", false);
-        ani.SetBool("isRunning", false);
-
-
-        // Move Left
-        if (Input.GetKey(KeyCode.A) && !uiObject.inMenu)
+        if (!isMovementBlocked)
         {
-            rb2dCat.velocity = new Vector2((-1 * currentSpeed) + (addVelocity * currentSpeed), rb2dCat.velocity.y);
-            Flip(LookingDirection.Left);
 
-            ani.SetBool("isWalking", true);
-        }
-        // Move Right
-        else if (Input.GetKey(KeyCode.D) && !uiObject.inMenu)
-        {
-            rb2dCat.velocity = new Vector2(currentSpeed + (addVelocity * currentSpeed), rb2dCat.velocity.y);
-            Flip(LookingDirection.Right);
+            // Bewegen
+            float currentSpeed = walkSpeed; // Speichert die aktuelle Geschwindigkeit
 
-            ani.SetBool("isWalking", true);
-        }
-        // Keine Bewegung
-        else
-        {
-            rb2dCat.velocity = new Vector2(0, rb2dCat.velocity.y);
-        }
+            // Zurücksetzten 
+            ani.SetBool("isWalking", false);
+            ani.SetBool("isRunning", false);
 
-        if (!uiObject.inMenu)
-        {
-            // Running
-            if (Input.GetKey(KeyCode.LeftShift) && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
+
+            // Move Left
+            if (Input.GetKey(KeyCode.A) && !uiObject.inMenu)
             {
-                rb2dCat.velocity = new Vector2(rb2dCat.velocity.x * runSpeed, rb2dCat.velocity.y);
+                rb2dCat.velocity = new Vector2((-1 * currentSpeed) + (addVelocity * currentSpeed), rb2dCat.velocity.y);
+                Flip(LookingDirection.Left);
 
-                ani.SetBool("isWalking", false);
-                ani.SetBool("isRunning", true);
-
+                ani.SetBool("isWalking", true);
             }
-
-
-
-            // Jumping
-            if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
+            // Move Right
+            else if (Input.GetKey(KeyCode.D) && !uiObject.inMenu)
             {
-                Jump(jumpForce);
-            }
-        }
+                rb2dCat.velocity = new Vector2(currentSpeed + (addVelocity * currentSpeed), rb2dCat.velocity.y);
+                Flip(LookingDirection.Right);
 
-        // Andere Kraft, z.B. Jump Bush
-        if (addVelocity != 0)
-        {
-            if (addVelocity <= 1 && addVelocity >= -1)
-                addVelocity = 0;
-            else if (addVelocity < -1)
-                addVelocity += 0.1f;
+                ani.SetBool("isWalking", true);
+            }
+            // Keine Bewegung
             else
-                addVelocity -= 0.1f;
+            {
+                rb2dCat.velocity = new Vector2(0, rb2dCat.velocity.y);
+            }
 
-            Debug.Log(addVelocity);
+            if (!uiObject.inMenu)
+            {
+                // Running
+                if (Input.GetKey(KeyCode.LeftShift) && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
+                {
+                    rb2dCat.velocity = new Vector2(rb2dCat.velocity.x * runSpeed, rb2dCat.velocity.y);
+
+                    ani.SetBool("isWalking", false);
+                    ani.SetBool("isRunning", true);
+
+                }
+
+
+
+                // Jumping
+                if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
+                {
+                    Jump(jumpForce);
+                }
+            }
+
+            // Andere Kraft, z.B. Jump Bush
+            if (addVelocity != 0)
+            {
+                if (addVelocity <= 1 && addVelocity >= -1)
+                    addVelocity = 0;
+                else if (addVelocity < -1)
+                    addVelocity += 0.1f;
+                else
+                    addVelocity -= 0.1f;
+
+                //Debug.Log(addVelocity);
+            }
         }
-
+        else // Movement is blocked
+        {
+            rb2dCat.velocity = new Vector2(0, 0);
+            Debug.Log("Movement is blocked");
+        }
     }
 
     // Change View Direction of the Player
@@ -123,7 +132,7 @@ public class CatController : MonoBehaviour {
     // 
     public void OnCollisionEnter2D(Collision2D coll) {
 
-            Debug.Log("Jumping OFF");
+            //Debug.Log("Jumping OFF");
             isJumping = false;
             ani.SetBool("isJumping", false);
 
@@ -157,5 +166,10 @@ public class CatController : MonoBehaviour {
 
         addVelocity = speed;
         
+    }
+
+    public void BlockMovement()
+    {
+        isMovementBlocked = !isMovementBlocked;
     }
 }

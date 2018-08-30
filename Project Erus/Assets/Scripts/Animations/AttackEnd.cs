@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class AttackEnd : StateMachineBehaviour {
 
+    private WeaponSystem weaponSystem;
+
 	 // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
 	//override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
 	//
@@ -15,9 +17,13 @@ public class AttackEnd : StateMachineBehaviour {
 	//}
 
 	// OnStateExit is called when a transition ends and the state machine finishes evaluating this state
-	//override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-	//
-	//}
+	override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
+
+        weaponSystem = animator.GetComponentInParent<WeaponSystem>();
+        animator.SetInteger(weaponSystem.CurWeapon.GetComponent<Weapon>().animationInteger, 0);
+        weaponSystem.StopAnimation();
+
+    }
 
 	// OnStateMove is called right after Animator.OnAnimatorMove(). Code that processes and affects root motion should be implemented here
 	//override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {

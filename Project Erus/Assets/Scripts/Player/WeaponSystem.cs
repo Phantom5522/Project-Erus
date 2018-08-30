@@ -5,21 +5,29 @@ using UnityEngine;
 public class WeaponSystem : MonoBehaviour {
 
     public Animator ani;
+    private CatController control;
 
     public GameObject weaponBone;
     public GameObject[] weaponPrefabs;
 
-    private GameObject curWeapon;
     private int curWeaponIndex = 0;
+    private GameObject curWeapon;
+    public GameObject CurWeapon
+    {
+        get { return curWeapon; }
+    }
+
 
     // Attack
     private int comboCounter = 0;
     private bool attackWasReleased = true;
+    private bool animationWasPlayed = true;
 
     // Use this for initialization
     void Start () {
 
         ani = GetComponent<Animator>();
+        control = GetComponent<CatController>();
 
         switchWeapon(curWeaponIndex);
 
@@ -48,42 +56,37 @@ public class WeaponSystem : MonoBehaviour {
 
         #region Attack-Inputs
 
-        Debug.Log(comboCounter);
+        if (comboCounter == curWeapon.GetComponent<Weapon>().comboLength && animationWasPlayed)
+            comboCounter = 0;
 
-        if (Input.GetKey(KeyCode.L) && attackWasReleased)
+        if (Input.GetKey(KeyCode.L) && attackWasReleased && animationWasPlayed)
         {
             attackWasReleased = false;
+            animationWasPlayed = false;
 
             if (curWeapon.GetComponent<Weapon>().comboLength > comboCounter)
             {
-                Debug.Log(curWeapon.GetComponent<Weapon>().comboLength + " <> " + (comboCounter + 1));
                 comboCounter++;
                 PlayAnimation();
-                StartCoroutine(ResetCombo(comboCounter, 0.5F));
             }
         }
 
         if (!Input.GetKey(KeyCode.L))
             attackWasReleased = true;
 
+        Debug.Log(control.IsMovementBlocked + " > " + comboCounter);
+
+        if (curWeapon.GetComponent<Weapon>().animationInteger == "ComboAttackKnife" && comboCounter == 3 && !control.IsMovementBlocked)
+            control.BlockMovement();
+        else if (curWeapon.GetComponent<Weapon>().animationInteger == "ComboAttackKnife" && comboCounter != 3 && control.IsMovementBlocked)
+            control.BlockMovement();
+
         #endregion
 
     }
 
-    private IEnumerator ResetCombo(int comboCounter, float delayTime)
+    private void switchWeapon(int index)
     {
-        yield return new WaitForSeconds(delayTime);
-
-        Debug.Log(comboCounter + " | " +  this.comboCounter);
-
-        if (this.comboCounter == comboCounter)
-        {
-            this.comboCounter = 0;
-            StopAnimation();
-        }
-    }
-
-    private void switchWeapon(int index) {
 
         if (curWeapon != null)
             StopAnimation();
@@ -101,17 +104,26 @@ public class WeaponSystem : MonoBehaviour {
     private void PlayAnimation()
     {
         Weapon weaponPorps = curWeapon.GetComponent<Weapon>();
-
         ani.SetInteger(weaponPorps.animationInteger, comboCounter);
-
     }
 
-    private void StopAnimation()
+    public void StopAnimation()
     {
-        Weapon weaponPorps = curWeapon.GetComponent<Weapon>();
+        StartCoroutine(ResetCombo(comboCounter, 0.5F));
+        animationWasPlayed = true;
+        
+    }
 
-        ani.SetInteger(weaponPorps.animationInteger, 0);
+    private IEnumerator ResetCombo(int comboCounter, float delayTime)
+    {
+        yield return new WaitForSeconds(delayTime);
 
+        Debug.Log(this.comboCounter + " | " + comboCounter);
+
+        if (this.comboCounter == comboCounter )
+        {
+            this.comboCounter = 0;
+        }
     }
 
 }
