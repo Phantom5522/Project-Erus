@@ -36,10 +36,13 @@ public class CatController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         Debug.Log("Jumping: " + isJumping);
+        Debug.Log("Frame Space: " + Input.GetKey(KeyCode.Space));
     }
 
     private void FixedUpdate()
     {
+
+        Debug.Log("Fixed Space: " + Input.GetKey(KeyCode.Space));
 
         // Bewegen
         float currentSpeed = walkSpeed; // Speichert die aktuelle Geschwindigkeit
