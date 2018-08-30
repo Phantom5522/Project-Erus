@@ -35,8 +35,8 @@ public class CatController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        Debug.Log("Jumping: " + isJumping);
+    }
 
     private void FixedUpdate()
     {
@@ -120,7 +120,7 @@ public class CatController : MonoBehaviour {
     // 
     public void OnCollisionEnter2D(Collision2D coll) {
 
-            Debug.Log("Aus");
+            Debug.Log("Jumping OFF");
             isJumping = false;
             ani.SetBool("isJumping", false);
 
